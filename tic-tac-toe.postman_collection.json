@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "9f8cfceb-bc55-4205-952d-7155df6c5576",
+		"name": "tic-tac-toe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register_candidate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://178.128.206.150:7000/register_candidate",
+					"protocol": "http",
+					"host": [
+						"178",
+						"128",
+						"206",
+						"150"
+					],
+					"port": "7000",
+					"path": [
+						"register_candidate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "player",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"apikey\" : \"324d4a13-8d78-4247-ae10-a9466bfd19bf\",\r\n    \"name\": \"Stefan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://178.128.206.150:7000/player",
+					"protocol": "http",
+					"host": [
+						"178",
+						"128",
+						"206",
+						"150"
+					],
+					"port": "7000",
+					"path": [
+						"player"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_board",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"apikey\": \"324d4a13-8d78-4247-ae10-a9466bfd19bf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://178.128.206.150:7000/create_board",
+					"protocol": "http",
+					"host": [
+						"178",
+						"128",
+						"206",
+						"150"
+					],
+					"port": "7000",
+					"path": [
+						"create_board"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "boards",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"apikey\": \"324d4a13-8d78-4247-ae10-a9466bfd19bf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://178.128.206.150:7000/boards",
+					"protocol": "http",
+					"host": [
+						"178",
+						"128",
+						"206",
+						"150"
+					],
+					"port": "7000",
+					"path": [
+						"boards"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
