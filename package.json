@@ -17,7 +17,7 @@
     "@types/socket.io": "^2.1.10",
     "@types/ws": "^7.2.6",
     "@types/yup": "^0.29.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.15.2",
     "formik": "^2.1.5",
     "mobx": "^5.15.4",
